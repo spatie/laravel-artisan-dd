@@ -3,16 +3,6 @@
 namespace Spatie\ArtisanDd;
 
 use Illuminate\Support\ServiceProvider;
-use Spatie\UptimeMonitor\Commands\SyncFile;
-use Spatie\UptimeMonitor\Commands\CheckUptime;
-use Spatie\UptimeMonitor\Commands\ListMonitors;
-use Spatie\UptimeMonitor\Commands\CreateMonitor;
-use Spatie\UptimeMonitor\Commands\DeleteMonitor;
-use Spatie\UptimeMonitor\Commands\EnableMonitor;
-use Spatie\UptimeMonitor\Commands\DisableMonitor;
-use Spatie\UptimeMonitor\Commands\CheckCertificates;
-use Spatie\UptimeMonitor\Notifications\EventHandler;
-use Spatie\UptimeMonitor\Helpers\UptimeResponseCheckers\UptimeResponseChecker;
 
 class ArtisanDdServiceProvider extends ServiceProvider
 {
@@ -21,7 +11,6 @@ class ArtisanDdServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
     }
 
     /**
@@ -30,7 +19,6 @@ class ArtisanDdServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('command.dd', DdCommand::class);
-
 
         $this->commands(['command.dd']);
     }
