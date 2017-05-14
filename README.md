@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-artisan-dd.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-artisan-dd)
 [![Build Status](https://img.shields.io/travis/spatie/laravel-artisan-dd/master.svg?style=flat-square)](https://travis-ci.org/spatie/laravel-artisan-dd)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/xxxxxxxxx.svg?style=flat-square)](https://insight.sensiolabs.com/projects/xxxxxxxxx)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/8358d984-f9e9-4de2-a69e-b6bd5369694b.svg?style=flat-square)](https://insight.sensiolabs.com/projects/8358d984-f9e9-4de2-a69e-b6bd5369694b)
 [![StyleCI](https://styleci.io/repos/91107001/shield?branch=master)](https://styleci.io/repos/91107001)
 [![Quality Score](https://img.shields.io/scrutinizer/g/spatie/laravel-artisan-dd.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/laravel-artisan-dd)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-artisan-dd.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-artisan-dd)
