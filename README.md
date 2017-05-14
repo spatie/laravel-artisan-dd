@@ -7,7 +7,14 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/spatie/laravel-artisan-dd.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/laravel-artisan-dd)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-artisan-dd.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-artisan-dd)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+[Laravel's tinker command](https://github.com/laravel/tinker) allows to run any code you want as if you are inside your Laravel app. But if you want to run a single line of code if can be a bit bothersome. You must start up tinker, type the code, press enter, and quit tinker.
+
+This package contains an Artisan command to dd anything from the commandline. No need to start and quit tinker anymore.
+
+```bash
+# dumps the first user
+php artisan dd "User::first()"
+```
 
 ## Postcardware
 
@@ -24,6 +31,8 @@ You can install the package via composer:
 ```bash
 composer require spatie/laravel-artisan-dd
 ```
+
+
 
 ## Usage
 
