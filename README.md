@@ -79,7 +79,7 @@ If you discover any security related issues, please email freek@spatie.be instea
 - [Freek Van der Herten](https://github.com/freekmurze)
 - [All Contributors](../../contributors)
 
-Idea: [Sebastian De Deyne](https://github.com/sebdd)
+Idea: [Sebastian De Deyne](https://github.com/sebastiandedeyne)
 
 ## About Spatie
 
