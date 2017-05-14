@@ -33,7 +33,9 @@ class DdCommand extends Command
             return;
         }
 
-        eval("dd({$this->argument('code')});");
+        $code = str_finish($this->argument('code'), ';');
+
+        eval("dd({$code};");
     }
 
     protected function isAllowedToRun(): bool

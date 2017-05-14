@@ -32,14 +32,29 @@ You can install the package via composer:
 composer require spatie/laravel-artisan-dd
 ```
 
+You must register the `Spatie\ArtisanDd\DdCommand` in the console kernel.
+
+```php
+// app/Console/Kernel.php
+
+protected $commands = [
+    ...
+    \Spatie\ArtisanDd\DdCommand::class,
+];
+```
 
 
 ## Usage
 
-``` php
-$skeleton = new Spatie\Skeleton();
-echo $skeleton->echoPhrase('Hello, Spatie!');
+You can pass any code you want to execute as the first argument. The result will be dumped to the screen.
+
+``` bash
+php artisan dd "bcrypt('secret')"; 
 ```
+
+## A word to the wise
+
+This command can run arbitrary code by using PHP's `eval`. Be aware that this can be potentially dangerous. By default the command will only run in a `local` environment. You can make it run in other environments by setting an `ALLOW_DD_COMMAND` enviroment variable to `true`. 
 
 ## Changelog
 
