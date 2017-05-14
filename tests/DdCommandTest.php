@@ -11,7 +11,7 @@ class DdCommandTest extends TestCase
     {
         $this->assertTrue(true);
 
-        Artisan::call('dd', ['code' => "app()->environment()"]);
+        Artisan::call('dd', ['code' => 'app()->environment()']);
 
         $this->seeInConsoleOutput('This command can only run if');
     }
