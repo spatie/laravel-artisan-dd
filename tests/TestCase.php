@@ -2,19 +2,15 @@
 
 namespace Spatie\ArtisanDd\Test;
 
-use Event;
 use Illuminate\Support\Facades\Artisan;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Illuminate\Console\Application as ConsoleApplication;
 use Spatie\ArtisanDd\ArtisanDdServiceProvider;
-use Spatie\ArtisanDd\DdCommand;
 
 abstract class TestCase extends Orchestra
 {
     public function setUp()
     {
         parent::setUp();
-
     }
 
     /**
