@@ -1,4 +1,4 @@
-# Very short description of the package
+# Quickly dd anything from the commandline
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-artisan-dd.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-artisan-dd)
 [![Build Status](https://img.shields.io/travis/spatie/laravel-artisan-dd/master.svg?style=flat-square)](https://travis-ci.org/spatie/laravel-artisan-dd)
@@ -78,6 +78,8 @@ If you discover any security related issues, please email freek@spatie.be instea
 
 - [Freek Van der Herten](https://github.com/freekmurze)
 - [All Contributors](../../contributors)
+
+Idea: [Sebastian De Deyne](https://github.com/sebdd)
 
 ## About Spatie
 
