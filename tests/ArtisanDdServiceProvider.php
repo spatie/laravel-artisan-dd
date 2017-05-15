@@ -1,8 +1,9 @@
 <?php
 
-namespace Spatie\ArtisanDd;
+namespace Spatie\ArtisanDd\Test;
 
 use Illuminate\Support\ServiceProvider;
+use Spatie\ArtisanDd\DdCommand;
 
 class ArtisanDdServiceProvider extends ServiceProvider
 {
