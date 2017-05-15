@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 
 class DdCommand extends Command
 {
-    protected $signature = 'dd {code}';
+    protected $signature = 'dd {code*}';
 
     protected $description = 'Run the given code and dump the result';
 
@@ -18,9 +18,14 @@ class DdCommand extends Command
             return;
         }
 
-        $code = rtrim($this->argument('code'), ';');
-
-        echo eval("dump({$code});");
+        return collect($this->argument('code'))
+            ->map(function(string $command) {
+                return rtrim($command, ';');
+            })
+            ->map(function(string $sanitizedCommand) {
+                return eval("dump({$sanitizedCommand});");
+            })
+            ->implode(PHP_EOL);
     }
 
     protected function isAllowedToRun(): bool
