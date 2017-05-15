@@ -8,13 +8,6 @@ use Spatie\ArtisanDd\DdCommand;
 class ArtisanDdServiceProvider extends ServiceProvider
 {
     /**
-     * Bootstrap the application services.
-     */
-    public function boot()
-    {
-    }
-
-    /**
      * Register the application services.
      */
     public function register()
