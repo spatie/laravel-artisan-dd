@@ -4,7 +4,6 @@ namespace Spatie\ArtisanDd\Test;
 
 use Illuminate\Support\Facades\Artisan;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\ArtisanDd\Test\ArtisanDdServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

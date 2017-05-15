@@ -19,10 +19,10 @@ class DdCommand extends Command
         }
 
         return collect($this->argument('code'))
-            ->map(function(string $command) {
+            ->map(function (string $command) {
                 return rtrim($command, ';');
             })
-            ->map(function(string $sanitizedCommand) {
+            ->map(function (string $sanitizedCommand) {
                 return eval("dump({$sanitizedCommand});");
             })
             ->implode(PHP_EOL);
