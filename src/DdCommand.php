@@ -20,7 +20,7 @@ class DdCommand extends Command
 
         $code = rtrim($this->argument('code'), ';');
 
-        eval("dd({$code});");
+        echo eval("dump({$code});");
     }
 
     protected function isAllowedToRun(): bool
