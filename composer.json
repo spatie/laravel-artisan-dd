@@ -21,7 +21,8 @@
     "require": {
         "php": "^7.0",
         "illuminate/console": "~5.3|~5.4",
-        "illuminate/support": "~5.3|~5.4"
+        "illuminate/support": "~5.3|~5.4",
+        "spatie/laravel-tinker-tools": "^1.0.0"
     },
     "require-dev": {
         "orchestra/testbench": "~3.3|~3.4",

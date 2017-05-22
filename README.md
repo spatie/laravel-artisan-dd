@@ -58,6 +58,20 @@ Multiple pieces of code can be dumped in one go:
 php artisan dd "bcrypt('secret')" "bcrypt('another-secret')"; 
 ```
 
+## Support for short class names
+
+Under the hood registers short class names using our [laravel-tinker-tools](https://github.com/spatie/laravel-tinker-tools) package. So instead of 
+
+```php
+php artisan dd "\App\Models\NewsItem::first()"; 
+```
+
+you can do this:
+
+```php
+php artisan dd "NewsItem::first()"; 
+```
+
 ## A word to the wise
 
 This command can run arbitrary code by using PHP's `eval`. Be aware that this can be potentially dangerous. By default the command will only run in a `local` environment. You can make it run in other environments by setting an `ALLOW_DD_COMMAND` enviroment variable to `true`. 
