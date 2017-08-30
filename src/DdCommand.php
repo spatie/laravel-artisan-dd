@@ -3,7 +3,6 @@
 namespace Spatie\ArtisanDd;
 
 use Illuminate\Console\Command;
-use Spatie\TinkerTools\ShortClassNames;
 
 class DdCommand extends Command
 {
@@ -18,8 +17,6 @@ class DdCommand extends Command
 
             return;
         }
-
-        ShortClassNames::register();
 
         return collect($this->argument('code'))
             ->map(function (string $command) {
