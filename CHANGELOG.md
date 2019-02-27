@@ -2,9 +2,10 @@
 
 All notable changes to `laravel-artisan-dd` will be documented in this file
 
-## X.X.X
+## 2.0.3 - 2018-02-27
 
-
+- add support for Laravel 5.8
+- drop support for Laravel 5.7 and below
 
 ## 2.0.2 - 2018-08-28
 
