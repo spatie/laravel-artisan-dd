@@ -7,11 +7,6 @@ use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
 {
-    public function setUp()
-    {
-        parent::setUp();
-    }
-
     /**
      * @param \Illuminate\Foundation\Application $app
      *
@@ -36,7 +31,7 @@ abstract class TestCase extends Orchestra
         $output = Artisan::output();
 
         foreach ($searchStrings as $searchString) {
-            $this->assertContains((string) $searchString, $output);
+            $this->assertStringContainsString((string) $searchString, $output);
         }
     }
 }
