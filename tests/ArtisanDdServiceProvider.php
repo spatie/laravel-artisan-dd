@@ -2,8 +2,8 @@
 
 namespace Spatie\ArtisanDd\Test;
 
-use Spatie\ArtisanDd\DdCommand;
 use Illuminate\Support\ServiceProvider;
+use Spatie\ArtisanDd\DdCommand;
 
 class ArtisanDdServiceProvider extends ServiceProvider
 {
