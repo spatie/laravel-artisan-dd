@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-artisan-dd` will be documented in this file
 
+## 2.3.0 - 2019-03-03
+
+- make compatible with Laravel 7
+
 ## 2.2.0 - 2019-09-04
 
 - make compatible with Laravel 6
