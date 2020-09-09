@@ -2,8 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-artisan-dd.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-artisan-dd)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/spatie/laravel-artisan-dd/run-tests?label=tests)
-[![StyleCI](https://styleci.io/repos/91107001/shield?branch=master)](https://styleci.io/repos/91107001)
-[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/laravel-artisan-dd.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/laravel-artisan-dd)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-artisan-dd.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-artisan-dd)
 
 [Laravel's tinker command](https://github.com/laravel/tinker) allows to run any code you want as if you are inside your Laravel app. But if you want to run a single line of code if can be a bit bothersome. You must start up tinker, type the code, press enter, and quit tinker.
