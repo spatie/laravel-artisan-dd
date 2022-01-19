@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-artisan-dd` will be documented in this file
 
+## 2.3.3 - 2022-01-19
+
+- support Laravel 9
+
 ## 2.3.2 - 2021-04-03
 
 - add PHP 8 support (#15)
