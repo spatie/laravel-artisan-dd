@@ -20,7 +20,7 @@ expect()->extend('toSeeInConsoleOutput', function () {
     /** @var string|array */
     $searchStrings = $this->value;
 
-    if (!is_array($searchStrings)) {
+    if (! is_array($searchStrings)) {
         $searchStrings = [$searchStrings];
     }
 
