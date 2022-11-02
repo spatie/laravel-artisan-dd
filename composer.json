@@ -24,6 +24,7 @@
     },
     "require-dev": {
         "orchestra/testbench": "^5.20|^6.23|^7.0",
+        "pestphp/pest": "^1.22",
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
@@ -37,10 +38,13 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "test": "vendor/bin/pest"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
