@@ -2,6 +2,18 @@
 
 All notable changes to `laravel-artisan-dd` will be documented in this file
 
+## 2.4.0 - 2024-02-29
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 1.3.5 to 1.3.6 by @dependabot in https://github.com/spatie/laravel-artisan-dd/pull/29
+* Bump dependabot/fetch-metadata from 1.3.6 to 1.4.0 by @dependabot in https://github.com/spatie/laravel-artisan-dd/pull/30
+* Bump dependabot/fetch-metadata from 1.4.0 to 1.5.1 by @dependabot in https://github.com/spatie/laravel-artisan-dd/pull/31
+* Bump dependabot/fetch-metadata from 1.5.1 to 1.6.0 by @dependabot in https://github.com/spatie/laravel-artisan-dd/pull/32
+* Laravel 11.x Compatibility by @laravel-shift in https://github.com/spatie/laravel-artisan-dd/pull/35
+
+**Full Changelog**: https://github.com/spatie/laravel-artisan-dd/compare/2.3.4...2.4.0
+
 ## 2.3.4 - 2023-01-24
 
 ### What's Changed
