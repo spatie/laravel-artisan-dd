@@ -12,6 +12,7 @@ class DdCommand extends Command
 
     public function handle()
     {
+        dd('handle');
         if (! $this->isAllowedToRun()) {
             $this->error('This command can only run if the environment variable `ALLOW_DD_COMMAND` is set to `true` or in local environment');
 

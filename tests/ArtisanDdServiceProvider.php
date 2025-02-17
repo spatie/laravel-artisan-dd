@@ -4,16 +4,15 @@ namespace Spatie\ArtisanDd\Test;
 
 use Illuminate\Support\ServiceProvider;
 use Spatie\ArtisanDd\DdCommand;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class ArtisanDdServiceProvider extends ServiceProvider
+class ArtisanDdServiceProvider extends PackageServiceProvider
 {
-    /**
-     * Register the application services.
-     */
-    public function register()
+    public function configurePackage(Package $package): void
     {
-        $this->app->bind('command.dd', DdCommand::class);
-
-        $this->commands(['command.dd']);
+        $package
+            ->name('artisan-dd')
+            ->hasCommand(DdCommand::class);
     }
 }
