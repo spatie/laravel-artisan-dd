@@ -2,7 +2,6 @@
 
 namespace Spatie\ArtisanDd\Test;
 
-use Illuminate\Support\ServiceProvider;
 use Spatie\ArtisanDd\DdCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
