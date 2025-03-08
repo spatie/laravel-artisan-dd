@@ -30,15 +30,14 @@ You can install the package via composer:
 composer require spatie/laravel-artisan-dd
 ```
 
-You must register the `Spatie\ArtisanDd\DdCommand` in the console kernel.
+You must register the `Spatie\ArtisanDd\DdCommand` in the bootstrap file:
 
 ```php
-// app/Console/Kernel.php
+// bootstrap/app.php
 
-protected $commands = [
-    ...
+->withCommands([
     \Spatie\ArtisanDd\DdCommand::class,
-];
+])
 ```
 
 ## Usage
