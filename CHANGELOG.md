@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-artisan-dd` will be documented in this file
 
+## 2.5.0 - 2026-02-21
+
+### What's Changed
+
+- Add Laravel 13 support
+
 ## 2.4.1 - 2025-02-17
 
 ### What's Changed
